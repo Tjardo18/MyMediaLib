@@ -1,0 +1,7 @@
+created:
+    - database/factories/PhotoFactory.php
+    - database/migrations/2024_05_25_121434_create_photos_table.php
+    - app/Models/Photo.php
+models:
+    User: { name: string, email: string, email_verified_at: 'timestamp nullable default:NULL', password: string, remember_token: 'string:100 nullable default:NULL' }
+    Photo: { filename: string, filepath: text, description: 'text nullable' }

@@ -1,0 +1,5 @@
+models:
+  Photo:
+    filename: string
+    filepath: text
+    description: text nullable
